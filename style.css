@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-
-
-
-
-
-
 * {
 
     margin: 0;
@@ -14,10 +8,9 @@
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
 
-
 }
 
-
+/* header section start here  */
 .container {
 
     display: grid;
@@ -107,6 +100,12 @@ ul {
 
 }
 
+
+/* Header section end here  */
+
+
+/* section one start here  */
+
 .vector {
 
     display: grid;
@@ -192,6 +191,381 @@ ul {
     text-transform: uppercase;
 }
 
+
+/* section one end here */
+
+/* setction two start here  */
+
+.second-container {
+
+    height: 100%;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1px auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+
+}
+
+.mark-one {
+    position: relative;
+    left: 100px;
+
+
+
+}
+
+.mark-two {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    justify-content: right;
+    right: 150px;
+
+
+}
+
+.mark-two h2 {
+    position: relative;
+    top: 50px;
+    color: #C550CF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mark-two p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.mark-two .knowmore {
+
+
+    height: 60px;
+    width: 200px;
+    padding: 1.2rem 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    background: #FF42A5;
+    color: #fff;
+
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    left: 300px;
+
+    bottom: 20px;
+    text-transform: uppercase;
+}
+
+.mark-two h5 {
+    position: relative;
+    bottom: 40px;
+    text-align: right;
+    font-size: 1rem;
+
+
+}
+
+.mark-two h3 {
+    position: relative;
+    bottom: 60px;
+    text-align: right;
+    font-size: 1rem;
+
+}
+
+/* section two end here */
+
+/* Main section start here  */
+
+.main-container {
+
+    margin: 50px auto;
+    text-align: center;
+
+
+}
+
+.main-container h1 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.main-container span {
+
+    color: #D64EC6;
+}
+
+.main-container p {
+
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 1.5rem auto;
+
+}
+
+.main-container img {
+
+    padding: 12px;
+}
+
+.fourimg {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fourimg h6 {
+
+    font-size: 0.8rem;
+}
+
+/* Main section end here  */
+
+
+/* Play One Start Here  */
+
+.play-title {
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding-top: -100px;
+    padding-left: 400px;
+
+}
+
+.play-title h2 {
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+    
+}
+
+
+
+.play-title span {
+    color: #E94ABB;
+}
+
+.play-title p {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    /* 166.667% */
+    padding-left: 0px;
+}
+
+
+.play-one {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    margin: 80px auto;
+    margin-bottom: -200px;
+
+}
+
+.play-img .smimg {
+    display: grid;
+    position: relative;
+    bottom: 250px;
+    right: 120px;
+}
+
+.play-img .bgimg {
+    display: grid;
+    grid-column: 2 / 2;
+    grid-row-start: 1 / 1;
+    position: relative;
+
+}
+
+
+/* Play One End here  */
+
+/* Play two start here  */
+
+
+.play-two {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    margin-bottom: -200px;
+}
+
+.playtwo-img {
+    display: grid;
+    justify-content: right;
+    position: relative;
+}
+
+.playtwo-img .smmimg {
+    position: relative;
+    top: -300px;
+    left: 500px;
+}
+
+.playtwo-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 400px;
+
+}
+
+.playtwo-title h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+    color: #0B0223;
+    font-family: Work Sans;
+    text-align: left;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.playtwo-title h2 span {
+    color: #E94ABB;
+}
+
+.playtwo-title p {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+/* Play two end here  */
+
+
+
+
+/* asid section start here  */
+
+
+.child-container {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+
+.title-ev {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: right;
+  align-content: center;
+  padding: 200px;
+  
+}
+.title-ev h2 {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+padding-bottom: 20px ;
+}
+
+.title-ev p {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-bottom: 20px ;
+}
+
+
+.title-ev h6 {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+
+.title-ev .whitebtn {
+    margin-top: 1.2rem;
+    line-height: 1rem;
+    padding: 1.2rem 2.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    background: #FFF;
+    color: black;
+
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+
+
+
+}
+
+/* Footer section  start here  */
+
 .footermain {
     justify-content: center;
     background-color: #0B0223;
@@ -207,7 +581,6 @@ ul {
     justify-content: center;
     position: relative;
 }
-
 
 
 .footerh1 span {
@@ -259,3 +632,5 @@ ul {
     top: -120px;
 
 }
+
+/* Footer section end here  */
