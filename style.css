@@ -545,17 +545,20 @@ line-height: 40px; /* 200% */
 }
 
 .title-ev .whitebtn {
+    width: 170px;
+    height: 50px;
     margin-top: 1.2rem;
     line-height: 1rem;
-    padding: 1.2rem 2.5rem;
+    padding: 10px 2px;
     border-radius: 0.8rem;
-    border: none;
+    
+    border: 200px;
     background: #FFF;
-    color: black;
+    color: #FF42A5;
 
     cursor: pointer;
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 900;
     text-align: center;
     position: relative;
     text-transform: uppercase;
